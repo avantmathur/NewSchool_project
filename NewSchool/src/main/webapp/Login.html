@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login</title>
+		<script src = "https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+
+	</head>
+	<body>
+		<div class = "container">
+			<form class = "form-horizontal" id = "submit" method = "POST" action = "login"> <!-- form-horizontal makes it so each div is on a seperate line -->
+				<div class="form-group">
+					<h3>Login:</h3>
+				</div>
+				<div class="form-group"> 
+					<label for="inputUsername" class="col-sm-2 col-sm-offset-1 control-label">Username: </label>
+					<div class="col-sm-7 col-sm-offset-1">
+						<input type="text" class="form-control" id="inputUsername" placeholder="Username" name = "username" required />
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputPassword" class="col-sm-2 col-sm-offset-1 control-label">Password: </label>
+					<div class="col-sm-7 col-sm-offset-1">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Password" name = "password" required />
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-2 col-sm-offset-4">
+						<input type = "submit" class = "btn btn-primary" id = "submitBtn"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-5 col-sm-offset-7">
+						<a href="register.html">New User?</a>
+					</div>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
+
+
